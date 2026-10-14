@@ -10,11 +10,41 @@ using System.Windows.Forms;
 
 namespace Konomenov_PR07_GIT
 {
-    public partial class Form1 : Form
+    public partial class PR07 : Form
     {
-        public Form1()
+        public PR07()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PR07_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtLogin_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

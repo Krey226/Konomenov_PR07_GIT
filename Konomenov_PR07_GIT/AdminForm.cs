@@ -41,5 +41,10 @@ namespace Konomenov_PR07_GIT
         {
 
         }
+
+        private void btnShowFIO_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Кономенов Кирилл Михайлович");
+        }
     }
 }

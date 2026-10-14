@@ -34,6 +34,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnShowFIO = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +61,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Konomenov_PR07_GIT.Properties.Resources.dsa;
             this.pictureBox1.Location = new System.Drawing.Point(317, 57);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(154, 152);
@@ -78,11 +78,22 @@
             this.label2.Text = "Администратор";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // btnShowFIO
+            // 
+            this.btnShowFIO.Location = new System.Drawing.Point(305, 293);
+            this.btnShowFIO.Name = "btnShowFIO";
+            this.btnShowFIO.Size = new System.Drawing.Size(178, 37);
+            this.btnShowFIO.TabIndex = 4;
+            this.btnShowFIO.Text = "Показать ФИО";
+            this.btnShowFIO.UseVisualStyleBackColor = true;
+            this.btnShowFIO.Click += new System.EventHandler(this.btnShowFIO_Click);
+            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.btnShowFIO);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblDateTime);
             this.Controls.Add(this.label1);
@@ -105,5 +116,6 @@
         private System.Windows.Forms.DateTimePicker lblDateTime;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnShowFIO;
     }
 }

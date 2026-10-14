@@ -19,6 +19,10 @@ namespace Konomenov_PR07_GIT
 
         private void button1_Click(object sender, EventArgs e)
         {
+            AdminForm admin = new AdminForm();
+            admin.Show();
+            this.Hide();
+        }
 
         }
 
